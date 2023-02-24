@@ -7,6 +7,10 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="flex justify-end m-2 p-2">
+                <a href="{{ route('admin.tables.create') }}"
+                    class="py-1.5 px-2 bg-slate-100 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-500 hover:bg-slate-300 rounded-lg">New Table</a>
+            </div>
             <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-slate-100 dark:bg-gray-700 dark:text-gray-400">
